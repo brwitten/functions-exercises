@@ -21,3 +21,12 @@ function parrot(phrase, n) {
 }
 
 parrot("hello!",3)
+
+// 3. Build your own Power function
+
+function power(base,exponent) {
+  return base ** exponent
+}
+
+var result = power(2,2);
+console.log(result);
