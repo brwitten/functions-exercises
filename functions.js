@@ -30,3 +30,13 @@ function power(base,exponent) {
 
 var result = power(2,2);
 console.log(result);
+
+
+// 4. Area of a circle: π r2
+
+function circleArea(radius) {
+  return (3.14 * radius ** 2);
+}
+
+var radius = 3
+circleArea(radius)
