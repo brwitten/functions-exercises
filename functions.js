@@ -40,3 +40,13 @@ function circleArea(radius) {
 
 var radius = 3
 circleArea(radius)
+
+// 5. Pythagorean Theorem: a2 + b2 = c2
+
+function pythagorean(length1, length2) {
+  return Math.sqrt((length1 ** 2) + (length2 ** 2))
+}
+
+var length1 = 2
+var length2 = 2
+pythagorean(length1,length2)
